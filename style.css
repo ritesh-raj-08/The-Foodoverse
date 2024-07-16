@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&family=Playwrite+ES+Deco:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Margarine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Margarine&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pics_casrol {
+    background-color: brown;
+    height: 100vh;
+}
+
+
+.dining {
+
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    animation: slidein 3s timing-function delay iteration-count direction fill-mode;
+}
+
+.dining .dishes {
+    display: flex;
+    justify-items: baseline;
+}
+
+.dining h3 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 35px;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.box {
+
+    height: 70vh;
+    width: 100vw;
+    background-image: url(assets/pexels-chanwalrus-941861.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+
+
+
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.dining_text {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+
+
+}
+
+.ingredients {
+    display: flex;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(assets/shutterstock_1917215645.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: fill;
+    background-attachment: fixed;
+
+
+}
+
+
+
+.under {
+    width: 60vw;
+    margin: auto;
+    color: white;
+}
+
+.under p {
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.under h2 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 35px;
+    font-style: normal;
+    text-decoration: underline;
+
+}
+
+.chef {
+    height: 180vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: end;
+}
+
+.chefcontent {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/chef.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+}
+
+.chefcontent h2 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 45px;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.chefcontent p {
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.review1 {
+    width: 100vw;
+    height: 90vh
+}
+
+.review2 p {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cutomer_review {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+
+}
+
+.catering {
+    height: 180vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.catering_content1 {
+    height: 90vh;
+    width: 100vw;
+
+}
+
+.catering_content2 {
+    height: 90vh;
+    width: 100vw;
+    justify-self: center;
+    align-content: center;
+    background-image: url(assets/catering.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-attachment: fixed;
+    color: white;
+    
+}
+
+footer {
+    height: 10vw;
+}
+
+.catering label {
+    font-family: "Indie Flower", cursive;
+    font-style: normal;
+    font-size: larger;
+}
+
+.catering h2 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.about-text {
+    padding: 0px 200px;
+    background-color: rgba(40, 40, 40, 0.989);
+    color: aliceblue;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-style: normal;
+
+}
+
+
+
+.about-text h3 {
+    text-decoration: underline;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.about-text h4 {
+
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal
+}
+
+.about_bg {
+    background-color: red;
+}
+
